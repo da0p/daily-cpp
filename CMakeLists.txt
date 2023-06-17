@@ -43,3 +43,7 @@ add_executable(algorithm_accumulate
 add_executable(string_trimming
     string_trimming.cpp
 )
+
+add_executable(algorithm_remove_if
+    algorithm_remove_if.cpp
+)
