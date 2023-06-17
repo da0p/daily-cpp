@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <iostream>
 #include <vector>
 #include <numeric>
@@ -12,6 +13,29 @@ int main(int argc, char *argv[])
 			1, 
 			std::multiplies<int>()
 	) << std::endl;
+
+	// Use accumulate to filter elements
+
+	auto const lowerLimit = 4;
+	auto bigScoreFilter = [lowerLimit](std::vector<int> previous, int score) {
+		if (score > lowerLimit) {
+			previous.push_back(score);
+		}
+
+		return previous;
+	};
+
+	auto const bigScores = std::accumulate(
+		scores.cbegin(),
+		scores.cend(),
+		std::vector<int>{},
+		bigScoreFilter
+	);
+
+	std::for_each(bigScores.cbegin(), bigScores.cend(), 
+	[](int score) {
+		std::cout << score << ", ";
+	});
 
 	return 0;
 }
