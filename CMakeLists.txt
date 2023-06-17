@@ -47,3 +47,7 @@ add_executable(string_trimming
 add_executable(algorithm_remove_if
     algorithm_remove_if.cpp
 )
+
+add_executable(algorithm_partition
+    algorithm_partition.cpp
+)
