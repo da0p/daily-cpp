@@ -31,3 +31,15 @@ add_executable(lambda_with_thread
 add_executable(string_find_last_of
     string_find_last_of.cpp
 )
+
+add_executable(algorithm_reduce
+    algorithm_reduce.cpp
+)
+
+add_executable(algorithm_accumulate
+    algorithm_accumulate.cpp
+)
+
+add_executable(string_trimming
+    string_trimming.cpp
+)
