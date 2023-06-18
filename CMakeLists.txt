@@ -51,3 +51,7 @@ add_executable(algorithm_remove_if
 add_executable(algorithm_partition
     algorithm_partition.cpp
 )
+
+add_executable(stream_iterator
+    stream_iterator.cpp
+)
