@@ -55,3 +55,7 @@ add_executable(algorithm_partition
 add_executable(stream_iterator
     stream_iterator.cpp
 )
+
+add_executable(quoted
+    quoted.cpp
+)
