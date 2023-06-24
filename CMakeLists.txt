@@ -59,3 +59,7 @@ add_executable(stream_iterator
 add_executable(quoted
     quoted.cpp
 )
+
+add_executable(misc_fib_cache
+    misc_fib_cache.cpp
+)
