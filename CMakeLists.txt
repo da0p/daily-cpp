@@ -63,3 +63,15 @@ add_executable(quoted
 add_executable(misc_fib_cache
     misc_fib_cache.cpp
 )
+
+add_executable(misc_generalized_memoization
+    misc_generalized_memoization.cpp
+)
+
+add_executable(misc_recursive_memoization
+    misc_recursive_memoization.cpp
+)
+
+add_executable(range_views_filter
+    range_views_filter.cpp
+)
