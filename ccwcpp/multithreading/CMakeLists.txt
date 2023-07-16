@@ -49,3 +49,7 @@ add_executable(ccwcpp_latch
 add_executable(ccwcpp_barrier
     ccwcpp_barrier.cpp
 )
+
+add_executable(ccwcpp_lazy_task
+    ccwcpp_lazy_task.cpp
+)
