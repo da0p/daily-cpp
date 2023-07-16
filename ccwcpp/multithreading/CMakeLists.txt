@@ -5,3 +5,47 @@ add_executable(ccwcpp_interrupt_thread
 add_executable(ccwcpp_read_writer_lock
     ccwcpp_read_writer_lock.cpp
 )
+
+add_executable(ccwcpp_dead_lock_resolved
+    ccwcpp_dead_lock_resolved.cpp
+)
+
+add_executable(ccwcpp_dead_lock_resolved_scoped_lock
+    ccwcpp_dead_lock_resolved_scoped_lock.cpp
+)
+
+add_executable(ccwcpp_thread_safe_initialization_constexpr
+    ccwcpp_thread_safe_initialization_constexpr.cpp
+)
+
+add_executable(ccwcpp_thread_safe_initialization_call_once
+    ccwcpp_thread_safe_initialization_call_once.cpp
+)
+
+add_executable(ccwcpp_thread_local
+    ccwcpp_thread_local.cpp
+)
+
+add_executable(ccwcpp_invoke_callback
+    ccwcpp_invoke_callback.cpp
+)
+
+add_executable(ccwcpp_signal_stop_requests
+    ccwcpp_signal_stop_requests.cpp
+)
+
+add_executable(ccwcpp_condition_variable_any
+    ccwcpp_condition_variable_any.cpp
+)
+
+add_executable(ccwcpp_thread_synchronization_semaphore
+    ccwcpp_thread_synchronization_semaphore.cpp
+)
+
+add_executable(ccwcpp_latch
+    ccwcpp_latch.cpp
+)
+
+add_executable(ccwcpp_barrier
+    ccwcpp_barrier.cpp
+)
