@@ -57,3 +57,7 @@ add_executable(ccwcpp_lazy_task
 add_executable(ccwcpp_fire_and_forget_future
     ccwcpp_fire_and_forget_future.cpp
 )
+
+add_executable(ccwcpp_concurrent_calculation
+    ccwcpp_concurrent_calculation.cpp
+)
