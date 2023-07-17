@@ -61,3 +61,7 @@ add_executable(ccwcpp_fire_and_forget_future
 add_executable(ccwcpp_concurrent_calculation
     ccwcpp_concurrent_calculation.cpp
 )
+
+add_executable(ccwcpp_packaged_task
+    ccwcpp_packaged_task.cpp
+)
