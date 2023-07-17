@@ -53,3 +53,7 @@ add_executable(ccwcpp_barrier
 add_executable(ccwcpp_lazy_task
     ccwcpp_lazy_task.cpp
 )
+
+add_executable(ccwcpp_fire_and_forget_future
+    ccwcpp_fire_and_forget_future.cpp
+)
