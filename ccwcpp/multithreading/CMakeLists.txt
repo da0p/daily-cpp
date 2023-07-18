@@ -65,3 +65,15 @@ add_executable(ccwcpp_concurrent_calculation
 add_executable(ccwcpp_packaged_task
     ccwcpp_packaged_task.cpp
 )
+
+add_executable(ccwcpp_packaged_task_reuse
+    ccwcpp_packaged_task_reuse.cpp
+)
+
+add_executable(ccwcpp_promise_future
+    ccwcpp_promise_future.cpp
+)
+
+add_executable(ccwcpp_shared_future
+    ccwcpp_shared_future.cpp
+)
