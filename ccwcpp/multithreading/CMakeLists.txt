@@ -77,3 +77,7 @@ add_executable(ccwcpp_promise_future
 add_executable(ccwcpp_shared_future
     ccwcpp_shared_future.cpp
 )
+
+add_executable(ccwcpp_promise_future_exception
+    ccwcpp_promise_future_exception.cpp
+)
