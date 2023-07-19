@@ -81,3 +81,15 @@ add_executable(ccwcpp_shared_future
 add_executable(ccwcpp_promise_future_exception
     ccwcpp_promise_future_exception.cpp
 )
+
+add_executable(ccwcpp_promise_future_synchronize
+    ccwcpp_promise_future_synchronize.cpp
+)
+
+add_executable(ccwcpp_cout_synchronized
+    ccwcpp_cout_synchronized.cpp
+)
+
+add_executable(ccwcpp_osyncstream_synchronized
+    ccwcpp_osyncstream_synchronized.cpp
+)
