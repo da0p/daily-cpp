@@ -1,3 +1,4 @@
 add_subdirectory(memory_model)
 add_subdirectory(multithreading)
 add_subdirectory(parallel_algorithms)
+add_subdirectory(coroutine)
