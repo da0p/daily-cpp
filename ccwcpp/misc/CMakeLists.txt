@@ -25,3 +25,23 @@ add_executable(singleton_atomic_sqt
 add_executable(singleton_atomic_acquire_release
     singleton_atomic_acquire_release.cpp
 )
+
+add_executable(ping_pong_cond_var
+    ping_pong_cond_var.cpp
+)
+
+add_executable(ping_pong_two_atomic_flags
+    ping_pong_two_atomic_flags.cpp
+)
+
+add_executable(ping_pong_one_atomic_flag
+    ping_pong_one_atomic_flag.cpp
+)
+
+add_executable(ping_pong_atomic_bool
+    ping_pong_atomic_bool.cpp
+)
+
+add_executable(ping_pong_semaphore
+    ping_pong_semaphore.cpp
+)
