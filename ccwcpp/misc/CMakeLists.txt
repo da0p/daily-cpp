@@ -45,3 +45,11 @@ add_executable(ping_pong_atomic_bool
 add_executable(ping_pong_semaphore
     ping_pong_semaphore.cpp
 )
+
+add_executable(eager_future_comment
+    eager_future_comment.cpp
+)
+
+add_executable(lazy_future
+    lazy_future.cpp
+)
