@@ -53,3 +53,7 @@ add_executable(eager_future_comment
 add_executable(lazy_future
     lazy_future.cpp
 )
+
+add_executable(lazy_future_with_thread
+    lazy_future_with_thread.cpp
+)
