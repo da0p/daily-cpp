@@ -61,3 +61,15 @@ add_executable(lazy_future_with_thread
 add_executable(infinite_data_stream
     infinite_data_stream.cpp
 )
+
+add_executable(transparent_start_job
+    transparent_start_job.cpp
+)
+
+add_executable(start_job_with_automatic_resumption
+    start_job_with_automatic_resumption.cpp
+)
+
+add_executable(start_job_with_automatic_resumption_on_thread
+    start_job_with_automatic_resumption_on_thread.cpp
+)
