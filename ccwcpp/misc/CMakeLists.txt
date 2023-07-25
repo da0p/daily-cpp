@@ -57,3 +57,7 @@ add_executable(lazy_future
 add_executable(lazy_future_with_thread
     lazy_future_with_thread.cpp
 )
+
+add_executable(infinite_data_stream
+    infinite_data_stream.cpp
+)
