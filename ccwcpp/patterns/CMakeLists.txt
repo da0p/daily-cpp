@@ -13,3 +13,7 @@ add_executable(thread_safe_interface
 add_executable(active_object
     active_object.cpp
 )
+
+add_executable(monitor_object
+    monitor_object.cpp
+)
