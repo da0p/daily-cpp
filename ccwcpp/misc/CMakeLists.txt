@@ -73,3 +73,7 @@ add_executable(start_job_with_automatic_resumption
 add_executable(start_job_with_automatic_resumption_on_thread
     start_job_with_automatic_resumption_on_thread.cpp
 )
+
+add_executable(telephone_book_exclusive_lock
+    telephone_book_exclusive_lock.cpp
+)
