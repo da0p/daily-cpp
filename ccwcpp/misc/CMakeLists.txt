@@ -77,3 +77,19 @@ add_executable(start_job_with_automatic_resumption_on_thread
 add_executable(telephone_book_exclusive_lock
     telephone_book_exclusive_lock.cpp
 )
+
+add_executable(timepoint
+    timepoint.cpp
+)
+
+add_executable(timepoint_addition
+    timepoint_addition.cpp
+)
+
+add_executable(clock_properties
+    clock_properties.cpp
+)
+
+add_executable(epoch
+    epoch.cpp
+)
