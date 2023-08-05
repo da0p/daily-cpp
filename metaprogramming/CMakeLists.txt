@@ -41,3 +41,11 @@ add_executable(variadic_alias_templates
 add_executable(variadic_variable_templates
     variadic_variable_templates.cpp
 )
+
+add_executable(non_dependent_name_lookup
+    non_dependent_name_lookup.cpp
+)
+
+add_executable(dependent_name_lookup
+    dependent_name_lookup.cpp
+)
