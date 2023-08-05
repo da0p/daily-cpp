@@ -21,3 +21,7 @@ add_executable(alias_templates
 add_executable(parameter_packs
     parameter_packs.cpp
 )
+
+add_executable(parameter_packs_in_contexts
+    parameter_packs_in_contexts.cpp
+)
