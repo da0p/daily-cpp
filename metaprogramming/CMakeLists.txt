@@ -33,3 +33,11 @@ add_executable(tuple_by_template
 add_executable(fold_expression
     fold_expression.cpp
 )
+
+add_executable(variadic_alias_templates
+    variadic_alias_templates.cpp
+)
+
+add_executable(variadic_variable_templates
+    variadic_variable_templates.cpp
+)
