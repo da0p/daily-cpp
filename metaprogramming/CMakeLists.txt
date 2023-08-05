@@ -25,3 +25,11 @@ add_executable(parameter_packs
 add_executable(parameter_packs_in_contexts
     parameter_packs_in_contexts.cpp
 )
+
+add_executable(tuple_by_template
+    tuple_by_template.cpp
+)
+
+add_executable(fold_expression
+    fold_expression.cpp
+)
