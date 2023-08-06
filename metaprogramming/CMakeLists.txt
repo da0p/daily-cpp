@@ -53,3 +53,7 @@ add_executable(dependent_name_lookup
 add_executable(two_phase_name_lookup
     two_phase_name_lookup.cpp
 )
+
+add_executable(dependent_type_names
+    dependent_type_names.cpp
+)
