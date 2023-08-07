@@ -61,3 +61,7 @@ add_executable(dependent_type_names
 add_executable(dependent_template_names
     dependent_template_names.cpp
 )
+
+add_executable(current_instantiation
+    current_instantiation.cpp
+)
