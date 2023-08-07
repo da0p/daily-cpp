@@ -69,3 +69,7 @@ add_executable(current_instantiation
 add_executable(recursive_template
     recursive_template.cpp
 )
+
+add_executable(many_fold_wrapper
+    many_fold_wrapper.cpp
+)
