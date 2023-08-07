@@ -65,3 +65,7 @@ add_executable(dependent_template_names
 add_executable(current_instantiation
     current_instantiation.cpp
 )
+
+add_executable(recursive_template
+    recursive_template.cpp
+)
