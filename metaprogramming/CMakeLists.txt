@@ -73,3 +73,7 @@ add_executable(recursive_template
 add_executable(many_fold_wrapper
     many_fold_wrapper.cpp
 )
+
+add_executable(func_template_argument_deduction
+    func_template_argument_deduction.cpp
+)
