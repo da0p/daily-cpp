@@ -85,3 +85,7 @@ add_executable(class_template_argument_deduction
 add_executable(forwarding_reference
     forwarding_reference.cpp
 )
+
+add_executable(decltype_rules
+    decltype_rules.cpp
+)
