@@ -77,3 +77,7 @@ add_executable(many_fold_wrapper
 add_executable(func_template_argument_deduction
     func_template_argument_deduction.cpp
 )
+
+add_executable(class_template_argument_deduction
+    class_template_argument_deduction.cpp
+)
