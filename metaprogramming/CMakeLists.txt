@@ -89,3 +89,7 @@ add_executable(forwarding_reference
 add_executable(decltype_rules
     decltype_rules.cpp
 )
+
+add_executable(friend_with_template
+    friend_with_template.cpp
+)
