@@ -93,3 +93,7 @@ add_executable(ccwcpp_cout_synchronized
 add_executable(ccwcpp_osyncstream_synchronized
     ccwcpp_osyncstream_synchronized.cpp
 )
+
+add_executable(ccwcpp_condition_variable_normal
+    ccwcpp_condition_variable_normal.cpp
+)
