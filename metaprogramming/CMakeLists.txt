@@ -105,3 +105,7 @@ add_executable(sfinae_2
 add_executable(type_trait_1
     type_trait_1.cpp
 )
+
+add_executable(type_trait_2
+    type_trait_2.cpp
+)
