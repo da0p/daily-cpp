@@ -138,3 +138,6 @@ add_executable(constrainting_non_template_member_functions
     constrainting_non_template_member_functions.cpp
 )
 
+add_executable(constraining_class_template
+    constraining_class_template.cpp
+)
