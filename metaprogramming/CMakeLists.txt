@@ -121,3 +121,7 @@ add_executable(type_require
 add_executable(compound_require
     compound_require.cpp
 )
+
+add_executable(nested_require
+    nested_require.cpp
+)
