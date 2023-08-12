@@ -145,3 +145,7 @@ add_executable(constraining_class_template
 add_executable(constraining_variables_and_aliases
     constraining_variables_and_aliases.cpp
 )
+
+add_executable(requires_clause_and_expression
+    requires_clause_and_expression.cpp
+)
