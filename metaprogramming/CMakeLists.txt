@@ -113,3 +113,7 @@ add_executable(type_trait_2
 add_executable(simple_require
     simple_require.cpp
 )
+
+add_executable(type_require
+    type_require.cpp
+)
