@@ -125,3 +125,7 @@ add_executable(compound_require
 add_executable(nested_require
     nested_require.cpp
 )
+
+add_executable(composing_constraints
+    composing_constraints.cpp
+)
