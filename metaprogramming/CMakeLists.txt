@@ -117,3 +117,7 @@ add_executable(simple_require
 add_executable(type_require
     type_require.cpp
 )
+
+add_executable(compound_require
+    compound_require.cpp
+)
