@@ -133,3 +133,8 @@ add_executable(composing_constraints
 add_executable(partial_template_ordering_with_constraints
     partial_template_ordering_with_constraints.cpp
 )
+
+add_executable(constrainting_non_template_member_functions
+    constrainting_non_template_member_functions.cpp
+)
+
