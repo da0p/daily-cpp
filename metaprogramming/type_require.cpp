@@ -26,9 +26,19 @@ struct key_value_pair
   value_type value;
 };
 
+template<typename T>
+  requires std::is_arithmetic_v<T>
+struct container
+{};
+
+template<typename T>
+concept containerizeable = requires { typename container<T>; };
+
 int
 main()
 {
+  static_assert(containerizeable<int>);
+  static_assert(!containerizeable<std::string>);
   static_assert(KVP<key_value_pair<int, std::string>>);
   static_assert(!KVP<std::pair<int, std::string>>);
 }
