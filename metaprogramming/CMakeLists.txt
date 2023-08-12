@@ -149,3 +149,8 @@ add_executable(constraining_variables_and_aliases
 add_executable(requires_clause_and_expression
     requires_clause_and_expression.cpp
 )
+
+add_executable(constraining_auto_parameters
+    constraining_auto_parameters.cpp
+)
+
