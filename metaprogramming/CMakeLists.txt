@@ -129,3 +129,7 @@ add_executable(nested_require
 add_executable(composing_constraints
     composing_constraints.cpp
 )
+
+add_executable(partial_template_ordering_with_constraints
+    partial_template_ordering_with_constraints.cpp
+)
