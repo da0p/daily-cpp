@@ -157,3 +157,7 @@ add_executable(constraining_auto_parameters
 add_executable(crtp
     crtp.cpp
 )
+
+add_executable(crtp_in_std
+    crtp_in_std.cpp
+)
