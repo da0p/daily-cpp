@@ -161,3 +161,7 @@ add_executable(crtp
 add_executable(crtp_in_std
     crtp_in_std.cpp
 )
+
+add_executable(mixins
+    mixins.cpp
+)
