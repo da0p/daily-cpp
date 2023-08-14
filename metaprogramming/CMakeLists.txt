@@ -165,3 +165,7 @@ add_executable(crtp_in_std
 add_executable(mixins
     mixins.cpp
 )
+
+add_executable(type_erasurer
+    type_erasurer.cpp
+)
