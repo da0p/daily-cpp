@@ -173,3 +173,7 @@ add_executable(type_erasurer
 add_executable(expression_template
     expression_template.cpp
 )
+
+add_executable(typelists
+    typelists.cpp
+)
