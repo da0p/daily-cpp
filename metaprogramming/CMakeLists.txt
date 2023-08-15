@@ -169,3 +169,7 @@ add_executable(mixins
 add_executable(type_erasurer
     type_erasurer.cpp
 )
+
+add_executable(expression_template
+    expression_template.cpp
+)
