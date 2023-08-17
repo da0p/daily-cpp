@@ -177,3 +177,7 @@ add_executable(expression_template
 add_executable(typelists
     typelists.cpp
 )
+
+add_executable(generic_container
+    generic_container.cpp
+)
