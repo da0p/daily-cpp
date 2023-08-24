@@ -13,3 +13,7 @@ add_executable(algorithm_remove_if
 add_executable(algorithm_partition
     algorithm_partition.cpp
 )
+
+add_executable(parallel_algorithm
+    parallel_algorithm.cpp
+)
