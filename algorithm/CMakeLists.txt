@@ -21,3 +21,7 @@ add_executable(parallel_algorithm
 add_executable(remove_copy
     remove_copy.cpp
 )
+
+add_executable(is_sorted_until
+    is_sorted_until.cpp
+)
