@@ -17,3 +17,7 @@ add_executable(algorithm_partition
 add_executable(parallel_algorithm
     parallel_algorithm.cpp
 )
+
+add_executable(remove_copy
+    remove_copy.cpp
+)
