@@ -81,3 +81,11 @@ add_executable(string_trimming
 add_executable(partition
     partition.cpp
 )
+
+add_executable(is_partitioned
+    is_partitioned.cpp
+)
+
+add_executable(partition_copy
+    partition_copy.cpp
+)
