@@ -97,3 +97,19 @@ add_executable(nth_element
 add_executable(lower_upper_bound
     lower_upper_bound.cpp
 )
+
+add_executable(equal_range
+    equal_range.cpp
+)
+
+add_executable(partition_point
+    partition_point.cpp
+)
+
+add_executable(includes
+    includes.cpp
+)
+
+add_executable(merge
+    merge.cpp
+)
