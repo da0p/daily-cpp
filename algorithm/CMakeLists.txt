@@ -89,3 +89,7 @@ add_executable(is_partitioned
 add_executable(partition_copy
     partition_copy.cpp
 )
+
+add_executable(nth_element
+    nth_element.cpp
+)
