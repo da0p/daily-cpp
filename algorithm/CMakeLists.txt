@@ -25,3 +25,7 @@ add_executable(remove_copy
 add_executable(is_sorted_until
     is_sorted_until.cpp
 )
+
+add_executable(spaceship_operator
+    spaceship_operator.cpp
+)
