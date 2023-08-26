@@ -13,3 +13,7 @@ add_executable(range_swap
 add_executable(range_iter_swap
     range_iter_swap.cpp
 )
+
+add_executable(swap_ranges
+    swap_ranges.cpp
+)
