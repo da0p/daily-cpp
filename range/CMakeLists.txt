@@ -17,3 +17,7 @@ add_executable(range_iter_swap
 add_executable(swap_ranges
     swap_ranges.cpp
 )
+
+add_executable(stable_sort
+    stable_sort.cpp
+)
