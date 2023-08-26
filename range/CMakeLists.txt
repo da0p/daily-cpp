@@ -21,3 +21,11 @@ add_executable(swap_ranges
 add_executable(stable_sort
     stable_sort.cpp
 )
+
+add_executable(partial_sort
+    partial_sort.cpp
+)
+
+add_executable(partial_sort_copy
+    partial_sort_copy.cpp
+)
