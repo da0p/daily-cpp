@@ -113,3 +113,7 @@ add_executable(includes
 add_executable(merge
     merge.cpp
 )
+
+add_executable(unique
+    unique.cpp
+)
