@@ -77,3 +77,7 @@ add_executable(quoted
 add_executable(string_trimming
     string_trimming.cpp
 )
+
+add_executable(partition
+    partition.cpp
+)
