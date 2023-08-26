@@ -29,3 +29,7 @@ add_executable(is_sorted_until
 add_executable(spaceship_operator
     spaceship_operator.cpp
 )
+
+add_executable(lexicographical_compare
+    lexicographical_compare.cpp
+)
