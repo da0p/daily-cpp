@@ -93,3 +93,7 @@ add_executable(partition_copy
 add_executable(nth_element
     nth_element.cpp
 )
+
+add_executable(lower_upper_bound
+    lower_upper_bound.cpp
+)
