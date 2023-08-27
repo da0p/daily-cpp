@@ -129,3 +129,7 @@ add_executable(set_symmetric_difference
 add_executable(set_union
     set_union.cpp
 )
+
+add_executable(set_intersection
+    set_intersection.cpp
+)
