@@ -125,3 +125,7 @@ add_executable(set_difference
 add_executable(set_symmetric_difference
     set_symmetric_difference.cpp
 )
+
+add_executable(set_union
+    set_union.cpp
+)
