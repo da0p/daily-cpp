@@ -117,3 +117,11 @@ add_executable(merge
 add_executable(unique
     unique.cpp
 )
+
+add_executable(set_difference
+    set_difference.cpp
+)
+
+add_executable(set_symmetric_difference
+    set_symmetric_difference.cpp
+)
