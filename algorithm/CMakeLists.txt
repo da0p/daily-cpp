@@ -137,3 +137,7 @@ add_executable(set_intersection
 add_executable(shift
     shift.cpp
 )
+
+add_executable(shuffle
+    shuffle.cpp
+)
