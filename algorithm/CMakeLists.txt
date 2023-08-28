@@ -133,3 +133,7 @@ add_executable(set_union
 add_executable(set_intersection
     set_intersection.cpp
 )
+
+add_executable(shift
+    shift.cpp
+)
