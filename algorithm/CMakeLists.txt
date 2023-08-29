@@ -145,3 +145,7 @@ add_executable(shuffle
 add_executable(inner_product
     inner_product.cpp
 )
+
+add_executable(partial_sum
+    partial_sum.cpp
+)
