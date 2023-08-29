@@ -141,3 +141,7 @@ add_executable(shift
 add_executable(shuffle
     shuffle.cpp
 )
+
+add_executable(inner_product
+    inner_product.cpp
+)
