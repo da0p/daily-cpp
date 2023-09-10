@@ -169,3 +169,7 @@ add_executable(copy_n
 add_executable(copy_if
     copy_if.cpp
 )
+
+add_executable(sample
+    sample.cpp
+)
