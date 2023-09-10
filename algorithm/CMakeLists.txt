@@ -165,3 +165,7 @@ add_executable(copy_backward
 add_executable(copy_n
     copy_n.cpp
 )
+
+add_executable(copy_if
+    copy_if.cpp
+)
