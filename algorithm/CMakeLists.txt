@@ -153,3 +153,15 @@ add_executable(partial_sum
 add_executable(generate
     generate.cpp
 )
+
+add_executable(generate_n
+    generate_n.cpp
+)
+
+add_executable(copy_backward
+    copy_backward.cpp
+)
+
+add_executable(copy_n
+    copy_n.cpp
+)
