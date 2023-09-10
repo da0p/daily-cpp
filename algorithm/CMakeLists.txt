@@ -177,3 +177,7 @@ add_executable(sample
 add_executable(replace_copy
     replace_copy.cpp
 )
+
+add_executable(reverse_copy
+    reverse_copy.cpp
+)
