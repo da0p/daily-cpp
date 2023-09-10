@@ -173,3 +173,7 @@ add_executable(copy_if
 add_executable(sample
     sample.cpp
 )
+
+add_executable(replace_copy
+    replace_copy.cpp
+)
