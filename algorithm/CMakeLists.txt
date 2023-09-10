@@ -149,3 +149,7 @@ add_executable(inner_product
 add_executable(partial_sum
     partial_sum.cpp
 )
+
+add_executable(generate
+    generate.cpp
+)
