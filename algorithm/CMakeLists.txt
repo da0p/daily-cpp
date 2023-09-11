@@ -205,3 +205,7 @@ add_executable(heap
 add_executable(adjacent_find
     adjacent_find.cpp
 )
+
+add_executable(search_n
+    search_n.cpp
+)
