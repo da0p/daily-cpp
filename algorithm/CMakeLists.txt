@@ -185,3 +185,7 @@ add_executable(reverse_copy
 add_executable(rotate_copy
     rotate_copy.cpp
 )
+
+add_executable(construct_at
+    construct_at.cpp
+)
