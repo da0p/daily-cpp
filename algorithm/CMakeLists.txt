@@ -217,3 +217,7 @@ add_executable(search
 add_executable(initializer_list
     initializer_list.cpp
 )
+
+add_executable(min_max_algorithm
+    min_max_algorithm.cpp
+)
