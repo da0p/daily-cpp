@@ -209,3 +209,7 @@ add_executable(adjacent_find
 add_executable(search_n
     search_n.cpp
 )
+
+add_executable(search
+    search.cpp
+)
