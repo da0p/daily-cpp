@@ -189,3 +189,19 @@ add_executable(rotate_copy
 add_executable(construct_at
     construct_at.cpp
 )
+
+add_executable(uninitialized_default_construct
+    uninitialized_default_construct.cpp
+)
+
+add_executable(uninitialized_copy
+    uninitialized_copy.cpp
+)
+
+add_executable(heap
+    heap.cpp
+)
+
+add_executable(adjacent_find
+    adjacent_find.cpp
+)
