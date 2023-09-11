@@ -213,3 +213,7 @@ add_executable(search_n
 add_executable(search
     search.cpp
 )
+
+add_executable(initializer_list
+    initializer_list.cpp
+)
