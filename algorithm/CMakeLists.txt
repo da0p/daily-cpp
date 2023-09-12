@@ -233,3 +233,7 @@ add_executable(min_max_element
 add_executable(borrowed_range
     borrowed_range.cpp
 )
+
+add_executable(views_keys
+    views_keys.cpp
+)
