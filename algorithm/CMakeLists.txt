@@ -229,3 +229,7 @@ add_executable(clamp
 add_executable(min_max_element
     min_max_element.cpp
 )
+
+add_executable(borrowed_range
+    borrowed_range.cpp
+)
