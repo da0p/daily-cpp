@@ -221,3 +221,11 @@ add_executable(initializer_list
 add_executable(min_max_algorithm
     min_max_algorithm.cpp
 )
+
+add_executable(clamp
+    clamp.cpp
+)
+
+add_executable(min_max_element
+    min_max_element.cpp
+)
