@@ -241,3 +241,7 @@ add_executable(views_keys
 add_executable(views_elements
     views_elements.cpp
 )
+
+add_executable(views_transform
+    views_transform.cpp
+)
