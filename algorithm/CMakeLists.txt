@@ -269,3 +269,7 @@ add_executable(views_counted
 add_executable(views_common
     views_common.cpp
 )
+
+add_executable(views_split
+    views_split.cpp
+)
