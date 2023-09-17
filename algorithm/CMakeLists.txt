@@ -257,3 +257,7 @@ add_executable(views_drop
 add_executable(views_filter
     views_filter.cpp
 )
+
+add_executable(views_reverse
+    views_reverse.cpp
+)
