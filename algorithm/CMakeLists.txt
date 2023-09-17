@@ -237,3 +237,7 @@ add_executable(borrowed_range
 add_executable(views_keys
     views_keys.cpp
 )
+
+add_executable(views_elements
+    views_elements.cpp
+)
