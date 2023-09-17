@@ -265,3 +265,7 @@ add_executable(views_reverse
 add_executable(views_counted
     views_counted.cpp
 )
+
+add_executable(views_common
+    views_common.cpp
+)
