@@ -9,3 +9,7 @@ add_executable(optional_in_place_default
 add_executable(optional_point
     optional_point.cpp
 )
+
+add_executable(optional_return
+    optional_return.cpp
+)
