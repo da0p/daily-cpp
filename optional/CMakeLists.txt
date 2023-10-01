@@ -13,3 +13,7 @@ add_executable(optional_point
 add_executable(optional_return
     optional_return.cpp
 )
+
+add_executable(optional_size
+    optional_size.cpp
+)
