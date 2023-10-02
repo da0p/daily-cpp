@@ -21,3 +21,11 @@ add_executable(variant_sizeof
 add_executable(variant_error_handling
     variant_error_handling.cpp
 )
+
+add_executable(variant_parsing_command
+    variant_parsing_command.cpp
+)
+
+add_executable(variant_fsm
+    variant_fsm.cpp
+)
