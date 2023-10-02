@@ -17,3 +17,7 @@ add_executable(variant_exception
 add_executable(variant_sizeof
     variant_sizeof.cpp
 )
+
+add_executable(variant_error_handling
+    variant_error_handling.cpp
+)
