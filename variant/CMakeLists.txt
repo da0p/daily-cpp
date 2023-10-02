@@ -9,3 +9,11 @@ add_executable(variant_changing_values
 add_executable(variant_object_lifetime
     variant_object_lifetime.cpp
 )
+
+add_executable(variant_exception
+    variant_exception.cpp
+)
+
+add_executable(variant_sizeof
+    variant_sizeof.cpp
+)
