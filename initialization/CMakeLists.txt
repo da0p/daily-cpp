@@ -1,3 +1,11 @@
-add_executable(move_constructor_noexcept
-    move_constructor_noexcept.cpp
+add_executable(constructors
+    constructors.cpp
+)
+
+add_executable(data_packet
+    data_packet.cpp
+)
+
+add_executable(trivial_class
+    trivial_class.cpp
 )
