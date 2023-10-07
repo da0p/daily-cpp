@@ -9,3 +9,7 @@ add_executable(data_packet
 add_executable(trivial_class
     trivial_class.cpp
 )
+
+add_executable(delegating_constructor
+    delegating_constructor.cpp
+)
