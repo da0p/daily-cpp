@@ -13,3 +13,7 @@ add_executable(trivial_class
 add_executable(delegating_constructor
     delegating_constructor.cpp
 )
+
+add_executable(inheriting_constructor
+    inheriting_constructor.cpp
+)
