@@ -17,3 +17,7 @@ add_executable(delegating_constructor
 add_executable(inheriting_constructor
     inheriting_constructor.cpp
 )
+
+add_executable(partially_created_object
+    partially_created_object.cpp
+)
