@@ -37,3 +37,7 @@ add_executable(nsdmi_experiment
 add_executable(nsdmi_containers_data_members
     nsdmi_containers_data_members.cpp
 )
+
+add_executable(package
+    package.cpp
+)
