@@ -33,3 +33,7 @@ add_executable(simple_type
 add_executable(nsdmi_experiment
     nsdmi_experiment.cpp
 )
+
+add_executable(nsdmi_containers_data_members
+    nsdmi_containers_data_members.cpp
+)
