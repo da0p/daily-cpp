@@ -29,3 +29,7 @@ add_executable(print_type_info
 add_executable(simple_type
     simple_type.cpp
 )
+
+add_executable(nsdmi_experiment
+    nsdmi_experiment.cpp
+)
