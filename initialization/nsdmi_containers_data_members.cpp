@@ -1,4 +1,5 @@
 #include <array>
+#include <initializer_list>
 #include <iostream>
 #include <map>
 #include <string>
@@ -25,6 +26,19 @@ struct S
   std::map<std::string, int> mapping;
 };
 
+void
+foo(std::initializer_list<int> list)
+{
+  if(!std::empty(list)) {
+    for(auto& x : list) {
+      std::cout << x << ", ";
+    }
+    std::cout << "(" << list.size() << " elements)\n";
+  } else {
+    std::cout << "empty list\n";
+  }
+}
+
 int
 main()
 {
@@ -35,6 +49,11 @@ main()
   std::cout << "s.moreInts[9]: " << s.moreInts[9] << "\n";
   std::cout << "s.names[9]: " << s.names[9] << "\n";
   std::cout << "s.mapping[\"one\"]: " << s.mapping["one"] << "\n";
+
+  std::cout << "\n\n";
+  foo({});
+  foo({1, 2, 3});
+  foo({1, 2, 3, 4, 5});
 
   return 0;
 }
