@@ -21,3 +21,7 @@ add_executable(inheriting_constructor
 add_executable(partially_created_object
     partially_created_object.cpp
 )
+
+add_executable(print_type_info
+    print_type_info.cpp
+)
