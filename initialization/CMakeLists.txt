@@ -50,4 +50,8 @@ add_executable(designated_initialization
     designated_initialization.cpp
 )
 
+add_executable(windows
+    windows.cpp
+)
+
 add_subdirectory(storage_duration_and_linkage)
