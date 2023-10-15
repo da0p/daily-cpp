@@ -46,4 +46,8 @@ add_executable(values
     values.cpp
 )
 
+add_executable(designated_initialization
+    designated_initialization.cpp
+)
+
 add_subdirectory(storage_duration_and_linkage)
