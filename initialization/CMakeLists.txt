@@ -45,3 +45,5 @@ add_executable(package
 add_executable(values
     values.cpp
 )
+
+add_subdirectory(storage_duration_and_linkage)

@@ -1,0 +1,3 @@
+add_subdirectory(static_external_linkage)
+add_subdirectory(static_internal_linkage)
+add_subdirectory(thread_local_storage)
