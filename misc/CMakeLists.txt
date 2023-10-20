@@ -13,3 +13,7 @@ add_executable(misc_generalized_memoization
 add_executable(misc_recursive_memoization
     misc_recursive_memoization.cpp
 )
+
+add_executable(threeway_operator
+    threeway_operator.cpp
+)
