@@ -17,3 +17,11 @@ add_executable(misc_recursive_memoization
 add_executable(threeway_operator
     threeway_operator.cpp
 )
+
+add_executable(format_1
+    format_1.cpp
+)
+
+add_executable(format_2
+    format_2.cpp
+)
