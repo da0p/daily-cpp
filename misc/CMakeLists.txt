@@ -25,3 +25,7 @@ add_executable(format_1
 add_executable(format_2
     format_2.cpp
 )
+
+add_executable(format_3
+    format_3.cpp
+)
