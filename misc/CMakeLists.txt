@@ -29,3 +29,7 @@ add_executable(format_2
 add_executable(format_3
     format_3.cpp
 )
+
+add_executable(format_4
+    format_4.cpp
+)
