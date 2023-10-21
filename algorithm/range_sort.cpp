@@ -1,5 +1,6 @@
 #include <algorithm>
 #include <bits/ranges_cmp.h>
+#include <cstdint>
 #include <cstdlib>
 #include <iostream>
 #include <ranges>

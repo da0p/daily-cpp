@@ -1,5 +1,6 @@
 #include <cassert>
 #include <compare>
+#include <cstdint>
 #include <iostream>
 
 /**

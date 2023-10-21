@@ -1,5 +1,6 @@
 #include <algorithm>
 #include <bits/ranges_algo.h>
+#include <cstdint>
 #include <iostream>
 #include <iterator>
 #include <vector>
