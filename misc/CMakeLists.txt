@@ -33,3 +33,7 @@ add_executable(format_3
 add_executable(format_4
     format_4.cpp
 )
+
+add_executable(coroutine_counter
+    coroutine_counter.cpp
+)
