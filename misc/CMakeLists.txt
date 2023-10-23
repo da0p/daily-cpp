@@ -37,3 +37,11 @@ add_executable(format_4
 add_executable(coroutine_counter
     coroutine_counter.cpp
 )
+
+add_executable(coroutine_parse_datastream_0
+    coroutine_parse_datastream_0.cpp
+)
+
+add_executable(coroutine_parse_datastream_1
+    coroutine_parse_datastream_1.cpp
+)
